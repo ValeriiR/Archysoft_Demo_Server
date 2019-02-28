@@ -1,0 +1,342 @@
+2019-01-27 13:06:59.331 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 13:07:04.056 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 13:07:04.772 +02:00 [Information] Request finished in 718.0977ms 404 
+2019-01-27 13:07:08.836 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 76
+2019-01-27 13:07:08.884 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-27 13:07:09.457 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-01-27 13:07:10.267 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 1371.1826ms
+2019-01-27 13:07:10.320 +02:00 [Information] Request finished in 1484.7392ms 200 application/json
+2019-01-27 13:09:31.421 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-27 13:09:31.422 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-27 13:09:31.428 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-01-27 13:09:31.478 +02:00 [Information] Executed action method "WebApi.Controllers.AuthController.Login (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 46.5886ms.
+2019-01-27 13:09:31.490 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.TokenModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-01-27 13:09:31.497 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 74.5603ms
+2019-01-27 13:09:31.497 +02:00 [Information] Request finished in 76.0249ms 200 application/json; charset=utf-8
+2019-01-27 13:09:50.710 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/users application/json 77
+2019-01-27 13:09:50.711 +02:00 [Information] Request finished in 0.8588ms 404 
+2019-01-27 13:09:54.938 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/users application/json 77
+2019-01-27 13:09:54.939 +02:00 [Information] Request finished in 0.5916ms 404 
+2019-01-27 13:10:58.222 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 13:11:02.684 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 13:11:03.162 +02:00 [Information] Request finished in 481.7322ms 404 
+2019-01-27 13:11:10.872 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/users application/json 77
+2019-01-27 13:11:10.896 +02:00 [Information] Request finished in 24.3308ms 404 
+2019-01-27 13:11:58.851 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 13:12:01.834 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 13:12:02.039 +02:00 [Information] Request finished in 205.9932ms 404 
+2019-01-27 13:12:05.286 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/users application/json 77
+2019-01-27 13:12:05.319 +02:00 [Information] Request finished in 33.501ms 404 
+2019-01-27 13:12:06.904 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/users application/json 77
+2019-01-27 13:12:06.908 +02:00 [Information] Request finished in 3.6608ms 404 
+2019-01-27 13:12:21.805 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/users application/json 77
+2019-01-27 13:12:21.809 +02:00 [Information] Request finished in 4.2078ms 404 
+2019-01-27 13:13:45.386 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 13:13:48.901 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 13:13:49.146 +02:00 [Information] Request finished in 246.2197ms 404 
+2019-01-27 13:13:50.715 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 77
+2019-01-27 13:13:50.754 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-01-27 13:13:51.151 +02:00 [Information] Executing action method "WebApi.Controllers.UserController.GetUsers (WebApi)" - Validation state: Valid
+2019-01-27 13:14:01.961 +02:00 [Information] Executed action method "WebApi.Controllers.UserController.GetUsers (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 10800.3286ms.
+2019-01-27 13:14:01.979 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[System.Collections.Generic.List`1[[D1.Model.Users.UserGridModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2019-01-27 13:14:06.954 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 16191.8944ms
+2019-01-27 13:14:10.548 +02:00 [Information] Request finished in 19833.2823ms 200 application/json; charset=utf-8
+2019-01-27 13:15:00.919 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 13:15:03.880 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 13:15:04.134 +02:00 [Information] Request finished in 257.018ms 404 
+2019-01-27 13:15:06.379 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 77
+2019-01-27 13:15:06.421 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-01-27 13:15:06.585 +02:00 [Information] Executing action method "WebApi.Controllers.UserController.GetUsers (WebApi)" - Validation state: Valid
+2019-01-27 13:15:13.347 +02:00 [Information] Executed action method "WebApi.Controllers.UserController.GetUsers (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 6747.8433ms.
+2019-01-27 13:15:13.366 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[System.Collections.Generic.List`1[[D1.Model.Users.UserGridModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2019-01-27 13:15:19.556 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 13126.3601ms
+2019-01-27 13:15:21.600 +02:00 [Information] Request finished in 15221.3347ms 200 application/json; charset=utf-8
+2019-01-27 17:54:21.586 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 17:54:23.324 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 17:54:23.442 +02:00 [Information] Request finished in 118.9053ms 404 
+2019-01-27 17:54:53.405 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/users application/json 78
+2019-01-27 17:54:53.423 +02:00 [Information] Request finished in 18.8078ms 404 
+2019-01-27 17:55:18.605 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 78
+2019-01-27 17:55:18.629 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-27 17:55:18.808 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-01-27 17:55:19.006 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 374.3879ms
+2019-01-27 17:55:19.022 +02:00 [Information] Request finished in 417.5097ms 200 application/json
+2019-01-27 17:55:36.855 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-27 17:55:36.855 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-27 17:55:36.858 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-01-27 17:55:36.883 +02:00 [Information] Executed action method "WebApi.Controllers.AuthController.Login (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 20.438ms.
+2019-01-27 17:55:36.891 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.TokenModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-01-27 17:55:36.899 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 43.8218ms
+2019-01-27 17:55:36.900 +02:00 [Information] Request finished in 44.9947ms 200 application/json; charset=utf-8
+2019-01-27 18:24:48.308 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 18:24:49.786 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 18:24:49.879 +02:00 [Information] Request finished in 94.3578ms 404 
+2019-01-27 18:25:00.636 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 77
+2019-01-27 18:25:00.661 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-01-27 18:25:00.686 +02:00 [Information] Executing action method "WebApi.Controllers.UserController.GetUsers (WebApi)" - Validation state: Valid
+2019-01-27 18:25:00.825 +02:00 [Information] Executed action method "WebApi.Controllers.UserController.GetUsers (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 133.657ms.
+2019-01-27 18:25:00.834 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[System.Collections.Generic.List`1[[D1.Model.Users.UserGridModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2019-01-27 18:25:00.885 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 221.6423ms
+2019-01-27 18:25:00.887 +02:00 [Information] Request finished in 251.105ms 200 application/json; charset=utf-8
+2019-01-27 18:54:24.543 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 18:54:26.262 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 18:54:26.359 +02:00 [Information] Request finished in 98.5036ms 404 
+2019-01-27 18:54:35.317 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 77
+2019-01-27 18:54:35.345 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-01-27 18:54:35.361 +02:00 [Information] Authorization failed.
+2019-01-27 18:54:35.364 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2019-01-27 18:54:35.381 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+2019-01-27 18:54:35.430 +02:00 [Information] AuthenticationScheme: "Identity.Application" was challenged.
+2019-01-27 18:54:35.432 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 84.055ms
+2019-01-27 18:54:35.441 +02:00 [Information] Request finished in 124.0596ms 302 
+2019-01-27 18:54:35.474 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/Account/Login?ReturnUrl=%2Fusers  
+2019-01-27 18:54:35.474 +02:00 [Information] Request finished in 0.4995ms 404 
+2019-01-27 20:55:44.028 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 20:55:45.480 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 20:55:45.574 +02:00 [Information] Request finished in 94.9129ms 404 
+2019-01-27 20:55:52.800 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 77
+2019-01-27 20:55:52.821 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-01-27 20:55:52.835 +02:00 [Information] Authorization failed.
+2019-01-27 20:55:52.839 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2019-01-27 20:55:52.845 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+2019-01-27 20:55:52.867 +02:00 [Information] AuthenticationScheme: "Identity.Application" was challenged.
+2019-01-27 20:55:52.870 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 45.6832ms
+2019-01-27 20:55:52.880 +02:00 [Information] Request finished in 82.3213ms 302 
+2019-01-27 20:55:52.886 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/Account/Login?ReturnUrl=%2Fusers  
+2019-01-27 20:55:52.886 +02:00 [Information] Request finished in 0.5392ms 404 
+2019-01-27 20:55:59.549 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 77
+2019-01-27 20:55:59.549 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-01-27 20:55:59.551 +02:00 [Information] Authorization failed.
+2019-01-27 20:55:59.551 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2019-01-27 20:55:59.551 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+2019-01-27 20:55:59.552 +02:00 [Information] AuthenticationScheme: "Identity.Application" was challenged.
+2019-01-27 20:55:59.552 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 2.8069ms
+2019-01-27 20:55:59.553 +02:00 [Information] Request finished in 4.4525ms 302 
+2019-01-27 20:55:59.559 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/Account/Login?ReturnUrl=%2Fusers  
+2019-01-27 20:55:59.560 +02:00 [Information] Request finished in 1.317ms 404 
+2019-01-27 20:56:34.629 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 20:56:36.673 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 20:56:36.816 +02:00 [Information] Request finished in 144.4337ms 404 
+2019-01-27 20:56:46.320 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 77
+2019-01-27 20:56:46.355 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-01-27 20:56:46.365 +02:00 [Information] Authorization failed.
+2019-01-27 20:56:46.368 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2019-01-27 20:56:46.372 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+2019-01-27 20:56:46.381 +02:00 [Information] AuthenticationScheme: "Identity.Application" was challenged.
+2019-01-27 20:56:46.383 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 25.7341ms
+2019-01-27 20:56:46.387 +02:00 [Information] Request finished in 67.6561ms 302 
+2019-01-27 20:56:46.393 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/Account/Login?ReturnUrl=%2Fusers  
+2019-01-27 20:56:46.394 +02:00 [Information] Request finished in 0.5353ms 404 
+2019-01-27 20:58:40.283 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-27 20:58:40.300 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-27 20:58:40.308 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 7.05ms
+2019-01-27 20:58:40.309 +02:00 [Error] Unable to resolve service for type 'D1.Model.Services.Abstract.ISettingsService' while attempting to activate 'D1.Model.Services.Concrete.AuthService'.
+System.InvalidOperationException: Unable to resolve service for type 'D1.Model.Services.Abstract.ISettingsService' while attempting to activate 'D1.Model.Services.Concrete.AuthService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at WebApi.Utilites.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Admin\Desktop\ARCHYSOFT\Studying\Projects\Solution1\WebApi\Utilites\Middleware\ErrorHandlingMiddleware.cs:line 32
+2019-01-27 20:58:40.861 +02:00 [Information] Request finished in 578.051ms 200 application/json
+2019-01-27 21:00:58.939 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 21:01:01.764 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 21:01:02.042 +02:00 [Information] Request finished in 279.9343ms 404 
+2019-01-27 21:01:06.327 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-27 21:01:06.398 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-27 21:01:06.443 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 34.9013ms
+2019-01-27 21:01:06.822 +02:00 [Error] Unable to resolve service for type 'D1.Model.Services.Abstract.ISettingsService' while attempting to activate 'D1.Model.Services.Concrete.AuthService'.
+System.InvalidOperationException: Unable to resolve service for type 'D1.Model.Services.Abstract.ISettingsService' while attempting to activate 'D1.Model.Services.Concrete.AuthService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at WebApi.Utilites.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Admin\Desktop\ARCHYSOFT\Studying\Projects\Solution1\WebApi\Utilites\Middleware\ErrorHandlingMiddleware.cs:line 32
+2019-01-27 21:01:07.054 +02:00 [Information] Request finished in 727.8047ms 200 application/json
+2019-01-27 21:02:37.214 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 21:02:40.657 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 21:02:41.056 +02:00 [Information] Request finished in 399.6994ms 404 
+2019-01-27 21:02:48.556 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-27 21:02:48.602 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-27 21:02:48.628 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 18.7742ms
+2019-01-27 21:02:48.732 +02:00 [Error] Unable to resolve service for type 'D1.Model.Services.Abstract.ISettingsService' while attempting to activate 'D1.Model.Services.Concrete.AuthService'.
+System.InvalidOperationException: Unable to resolve service for type 'D1.Model.Services.Abstract.ISettingsService' while attempting to activate 'D1.Model.Services.Concrete.AuthService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at WebApi.Utilites.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Admin\Desktop\ARCHYSOFT\Studying\Projects\Solution1\WebApi\Utilites\Middleware\ErrorHandlingMiddleware.cs:line 32
+2019-01-27 21:02:48.934 +02:00 [Information] Request finished in 377.74ms 200 application/json
+2019-01-27 21:02:52.672 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-27 21:02:52.676 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-27 21:02:52.680 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 1.6502ms
+2019-01-27 21:02:52.727 +02:00 [Error] Unable to resolve service for type 'D1.Model.Services.Abstract.ISettingsService' while attempting to activate 'D1.Model.Services.Concrete.AuthService'.
+System.InvalidOperationException: Unable to resolve service for type 'D1.Model.Services.Abstract.ISettingsService' while attempting to activate 'D1.Model.Services.Concrete.AuthService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at WebApi.Utilites.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Admin\Desktop\ARCHYSOFT\Studying\Projects\Solution1\WebApi\Utilites\Middleware\ErrorHandlingMiddleware.cs:line 32
+2019-01-27 21:02:52.731 +02:00 [Information] Request finished in 59.3259ms 200 application/json
+2019-01-27 21:41:21.752 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 21:41:23.334 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 21:41:23.470 +02:00 [Information] Request finished in 137.094ms 404 
+2019-01-27 21:41:39.890 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-27 21:41:39.937 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-27 21:41:39.953 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 11.0789ms
+2019-01-27 21:41:39.959 +02:00 [Error] Unable to resolve service for type 'D1.Model.Settings.JwtSettings' while attempting to activate 'D1.Model.Services.Concrete.SettingsService'.
+System.InvalidOperationException: Unable to resolve service for type 'D1.Model.Settings.JwtSettings' while attempting to activate 'D1.Model.Services.Concrete.SettingsService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at WebApi.Utilites.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Admin\Desktop\ARCHYSOFT\Studying\Projects\Solution1\WebApi\Utilites\Middleware\ErrorHandlingMiddleware.cs:line 32
+2019-01-27 21:41:40.056 +02:00 [Information] Request finished in 165.5655ms 200 application/json
+2019-01-27 21:45:58.034 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 21:46:01.006 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 21:46:01.276 +02:00 [Information] Request finished in 272.7742ms 404 
+2019-01-27 21:46:33.513 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-27 21:46:33.649 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-27 21:46:33.671 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 16.3306ms
+2019-01-27 21:46:33.781 +02:00 [Error] Unable to resolve service for type 'D1.Model.Services.Abstract.ISettingsService' while attempting to activate 'D1.Model.Services.Concrete.AuthService'.
+System.InvalidOperationException: Unable to resolve service for type 'D1.Model.Services.Abstract.ISettingsService' while attempting to activate 'D1.Model.Services.Concrete.AuthService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at WebApi.Utilites.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\Users\Admin\Desktop\ARCHYSOFT\Studying\Projects\Solution1\WebApi\Utilites\Middleware\ErrorHandlingMiddleware.cs:line 32
+2019-01-27 21:46:33.967 +02:00 [Information] Request finished in 453.7151ms 200 application/json
+2019-01-27 21:47:24.966 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 21:47:31.389 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 21:47:31.685 +02:00 [Information] Request finished in 299.7486ms 404 
+2019-01-27 21:48:17.709 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 21:48:20.870 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 21:48:21.137 +02:00 [Information] Request finished in 268.73ms 404 
+2019-01-27 21:48:25.892 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-27 21:48:25.953 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-27 21:48:25.976 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 14.9711ms
+2019-01-27 21:51:30.174 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-27 21:51:32.390 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-27 21:51:32.586 +02:00 [Information] Request finished in 197.9894ms 404 
+2019-01-27 21:51:36.459 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-27 21:51:36.498 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-27 21:51:36.760 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-01-27 21:51:37.136 +02:00 [Information] Executed action method "WebApi.Controllers.AuthController.Login (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 367.6377ms.
+2019-01-27 21:51:37.151 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.TokenModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-01-27 21:51:37.177 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 675.0503ms
+2019-01-27 21:51:37.178 +02:00 [Information] Request finished in 719.0467ms 200 application/json; charset=utf-8
+2019-01-27 21:53:29.540 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 77
+2019-01-27 21:53:29.712 +02:00 [Information] Successfully validated the token.
+2019-01-27 21:53:29.727 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-01-27 21:53:29.735 +02:00 [Information] Authorization was successful.
+2019-01-27 21:53:29.742 +02:00 [Information] Executing action method "WebApi.Controllers.UserController.GetUsers (WebApi)" - Validation state: Valid
+2019-01-27 21:53:29.884 +02:00 [Information] Executed action method "WebApi.Controllers.UserController.GetUsers (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 142.2064ms.
+2019-01-27 21:53:29.885 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[System.Collections.Generic.List`1[[D1.Model.Users.UserGridModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2019-01-27 21:53:29.894 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 167.3534ms
+2019-01-27 21:53:29.895 +02:00 [Information] Request finished in 354.8483ms 200 application/json; charset=utf-8

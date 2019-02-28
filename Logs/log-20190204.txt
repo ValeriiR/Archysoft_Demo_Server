@@ -1,0 +1,126 @@
+2019-02-04 12:32:40.979 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-02-04 12:32:41.010 +02:00 [Information] Request finished in 34.9552ms 404 
+2019-02-04 12:34:21.329 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 77
+2019-02-04 12:34:21.568 +02:00 [Information] Successfully validated the token.
+2019-02-04 12:34:21.639 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-02-04 12:34:21.649 +02:00 [Information] Authorization was successful.
+2019-02-04 12:34:21.752 +02:00 [Information] Executing action method "WebApi.Controllers.UserController.GetUsers (WebApi)" with arguments (["D1.Model.Common.BaseFilter"]) - Validation state: Valid
+2019-02-04 12:34:22.592 +02:00 [Information] Executed action method "WebApi.Controllers.UserController.GetUsers (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 832.4404ms.
+2019-02-04 12:34:22.604 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.Common.SearchResult`1[[D1.Model.Users.UserGridModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-02-04 12:34:22.633 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 990.3049ms
+2019-02-04 12:34:22.635 +02:00 [Information] Request finished in 1306.3217ms 200 application/json; charset=utf-8
+2019-02-04 12:43:32.992 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 77
+2019-02-04 12:43:32.993 +02:00 [Information] Successfully validated the token.
+2019-02-04 12:43:32.994 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-02-04 12:43:32.994 +02:00 [Information] Authorization was successful.
+2019-02-04 12:43:32.996 +02:00 [Information] Executing action method "WebApi.Controllers.UserController.GetUsers (WebApi)" with arguments (["D1.Model.Common.BaseFilter"]) - Validation state: Valid
+2019-02-04 12:43:33.356 +02:00 [Information] Executed action method "WebApi.Controllers.UserController.GetUsers (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 359.5156ms.
+2019-02-04 12:43:33.357 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.Common.SearchResult`1[[D1.Model.Users.UserGridModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-02-04 12:43:33.357 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 363.6505ms
+2019-02-04 12:43:33.358 +02:00 [Information] Request finished in 365.9648ms 200 application/json; charset=utf-8
+2019-02-04 12:44:07.164 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 74
+2019-02-04 12:44:07.169 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-02-04 12:44:07.291 +02:00 [Information] Executing JsonResult, writing value of type '"WebApi.Model.ApiResponse"'.
+2019-02-04 12:44:07.292 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 123.1994ms
+2019-02-04 12:44:07.293 +02:00 [Information] Request finished in 128.2943ms 200 application/json; charset=utf-8
+2019-02-04 12:44:34.447 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 74
+2019-02-04 12:44:34.448 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-02-04 12:44:34.452 +02:00 [Information] Executing JsonResult, writing value of type '"WebApi.Model.ApiResponse"'.
+2019-02-04 12:44:34.453 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 5.002ms
+2019-02-04 12:44:34.453 +02:00 [Information] Request finished in 6.0714ms 200 application/json; charset=utf-8
+2019-02-04 12:44:44.870 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 74
+2019-02-04 12:44:44.870 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-02-04 12:44:44.873 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-02-04 12:44:45.075 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 204.437ms
+2019-02-04 12:44:45.087 +02:00 [Information] Request finished in 217.5441ms 200 application/json
+2019-02-04 12:45:03.898 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 74
+2019-02-04 12:45:03.898 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-02-04 12:45:03.900 +02:00 [Information] Executing JsonResult, writing value of type '"WebApi.Model.ApiResponse"'.
+2019-02-04 12:45:03.901 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 2.618ms
+2019-02-04 12:45:03.901 +02:00 [Information] Request finished in 3.5931ms 200 application/json; charset=utf-8
+2019-02-04 12:45:44.822 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 74
+2019-02-04 12:45:44.823 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-02-04 12:45:44.824 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-02-04 12:45:44.848 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 24.7375ms
+2019-02-04 12:45:44.848 +02:00 [Information] Request finished in 26.0074ms 200 application/json
+2019-02-04 12:46:23.781 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 81
+2019-02-04 12:46:23.782 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-02-04 12:46:23.784 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-02-04 12:46:23.788 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 5.455ms
+2019-02-04 12:46:23.788 +02:00 [Information] Request finished in 6.9158ms 200 application/json
+2019-02-04 12:47:32.652 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 74
+2019-02-04 12:47:32.653 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-02-04 12:47:32.655 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-02-04 12:47:32.676 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 22.8542ms
+2019-02-04 12:47:32.676 +02:00 [Information] Request finished in 24.1835ms 200 application/json
+2019-02-04 12:49:13.667 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/recover-password application/json 356
+2019-02-04 12:49:13.669 +02:00 [Information] Route matched with "{action = \"RecoverPassword\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.RecoverPassword (WebApi)"
+2019-02-04 12:49:13.695 +02:00 [Information] Executing JsonResult, writing value of type '"WebApi.Model.ApiResponse"'.
+2019-02-04 12:49:13.696 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.RecoverPassword (WebApi)" in 25.778ms
+2019-02-04 12:49:13.696 +02:00 [Information] Request finished in 29.4696ms 200 application/json; charset=utf-8
+2019-02-04 12:49:40.400 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 79
+2019-02-04 12:49:40.400 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-02-04 12:49:40.402 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-02-04 12:49:40.433 +02:00 [Information] Executed action method "WebApi.Controllers.AuthController.Login (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 31.0918ms.
+2019-02-04 12:49:40.433 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.Authentification.TokenModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-02-04 12:49:40.440 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 39.5561ms
+2019-02-04 12:49:40.440 +02:00 [Information] Request finished in 40.72ms 200 application/json; charset=utf-8
+2019-02-04 12:50:02.104 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 
+2019-02-04 12:50:02.104 +02:00 [Information] Successfully validated the token.
+2019-02-04 12:50:02.105 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-02-04 12:50:02.105 +02:00 [Information] Authorization was successful.
+2019-02-04 12:50:02.107 +02:00 [Information] Executing action method "WebApi.Controllers.UserController.GetUsers (WebApi)" with arguments (["D1.Model.Common.BaseFilter"]) - Validation state: Valid
+2019-02-04 12:50:02.154 +02:00 [Information] Executed action method "WebApi.Controllers.UserController.GetUsers (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 47.2422ms.
+2019-02-04 12:50:02.154 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.Common.SearchResult`1[[D1.Model.Users.UserGridModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-02-04 12:50:02.155 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 49.9518ms
+2019-02-04 12:50:02.155 +02:00 [Information] Request finished in 51.3976ms 200 application/json; charset=utf-8
+2019-02-04 12:56:42.477 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 
+2019-02-04 12:56:42.478 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-02-04 12:56:42.478 +02:00 [Information] Authorization failed.
+2019-02-04 12:56:42.481 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2019-02-04 12:56:42.485 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+2019-02-04 12:56:42.500 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2019-02-04 12:56:42.500 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 22.1832ms
+2019-02-04 12:56:42.502 +02:00 [Information] Request finished in 25.2601ms 401 
+2019-02-04 12:56:56.152 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 
+2019-02-04 12:56:56.152 +02:00 [Information] Successfully validated the token.
+2019-02-04 12:56:56.152 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-02-04 12:56:56.153 +02:00 [Information] Authorization was successful.
+2019-02-04 12:56:56.153 +02:00 [Information] Executing action method "WebApi.Controllers.UserController.GetUsers (WebApi)" with arguments (["D1.Model.Common.BaseFilter"]) - Validation state: Valid
+2019-02-04 12:56:56.163 +02:00 [Information] Executed action method "WebApi.Controllers.UserController.GetUsers (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 8.9779ms.
+2019-02-04 12:56:56.163 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.Common.SearchResult`1[[D1.Model.Users.UserGridModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-02-04 12:56:56.164 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 11.5991ms
+2019-02-04 12:56:56.165 +02:00 [Information] Request finished in 13.006ms 200 application/json; charset=utf-8
+2019-02-04 22:20:49.817 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-02-04 22:20:51.848 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-02-04 22:20:52.019 +02:00 [Information] Request finished in 171.6761ms 404 
+2019-02-04 22:21:01.877 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 
+2019-02-04 22:21:02.015 +02:00 [Information] Successfully validated the token.
+2019-02-04 22:21:02.082 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-02-04 22:21:02.093 +02:00 [Information] Authorization was successful.
+2019-02-04 22:21:02.286 +02:00 [Information] Executing action method "WebApi.Controllers.UserController.GetUsers (WebApi)" with arguments (["D1.Model.Common.BaseFilter"]) - Validation state: Valid
+2019-02-04 22:21:02.742 +02:00 [Information] Executed action method "WebApi.Controllers.UserController.GetUsers (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 449.9693ms.
+2019-02-04 22:21:02.765 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.Common.SearchResult`1[[D1.Model.Users.UserGridModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-02-04 22:21:02.789 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 703.8573ms
+2019-02-04 22:21:02.790 +02:00 [Information] Request finished in 912.8029ms 200 application/json; charset=utf-8
+2019-02-04 22:21:15.816 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 
+2019-02-04 22:21:15.817 +02:00 [Information] Successfully validated the token.
+2019-02-04 22:21:15.817 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-02-04 22:21:15.818 +02:00 [Information] Authorization was successful.
+2019-02-04 22:21:15.820 +02:00 [Information] Executing action method "WebApi.Controllers.UserController.GetUsers (WebApi)" with arguments (["D1.Model.Common.BaseFilter"]) - Validation state: Valid
+2019-02-04 22:21:15.831 +02:00 [Information] Executed action method "WebApi.Controllers.UserController.GetUsers (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 10.0454ms.
+2019-02-04 22:21:15.831 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.Common.SearchResult`1[[D1.Model.Users.UserGridModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-02-04 22:21:15.832 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 14.1156ms
+2019-02-04 22:21:15.856 +02:00 [Information] Request finished in 40.2202ms 200 application/json; charset=utf-8
+2019-02-04 22:22:58.676 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-02-04 22:23:01.322 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-02-04 22:23:01.477 +02:00 [Information] Request finished in 157.3706ms 404 
+2019-02-04 22:23:04.196 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 
+2019-02-04 22:23:04.337 +02:00 [Information] Successfully validated the token.
+2019-02-04 22:23:04.383 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-02-04 22:23:04.402 +02:00 [Information] Authorization was successful.
+2019-02-04 22:23:04.481 +02:00 [Information] Executing action method "WebApi.Controllers.UserController.GetUsers (WebApi)" with arguments (["D1.Model.Common.BaseFilter"]) - Validation state: Valid
+2019-02-04 22:23:04.879 +02:00 [Information] Executed action method "WebApi.Controllers.UserController.GetUsers (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 390.3614ms.
+2019-02-04 22:23:04.887 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.Common.SearchResult`1[[D1.Model.Users.UserGridModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-02-04 22:23:04.906 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 519.5241ms
+2019-02-04 22:23:04.907 +02:00 [Information] Request finished in 711.3468ms 200 application/json; charset=utf-8

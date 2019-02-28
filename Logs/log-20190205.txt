@@ -1,0 +1,2 @@
+2019-02-05 10:04:00.889 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-02-05 10:04:00.948 +02:00 [Information] Request finished in 67.8709ms 404 

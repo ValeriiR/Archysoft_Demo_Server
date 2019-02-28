@@ -1,0 +1,81 @@
+2019-01-28 15:30:41.015 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-28 15:30:47.138 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-28 15:30:48.160 +02:00 [Information] Request finished in 1026.4302ms 404 
+2019-01-28 15:31:38.768 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-28 15:31:38.864 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-28 15:39:55.414 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-28 15:39:59.727 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-28 15:40:00.167 +02:00 [Information] Request finished in 443.4382ms 404 
+2019-01-28 15:40:04.970 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-28 15:40:05.056 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-28 15:54:50.383 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-28 15:54:54.128 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-28 15:55:09.814 +02:00 [Information] Request finished in 15690.0892ms 404 
+2019-01-28 15:55:16.569 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-28 16:01:33.513 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-28 16:03:58.230 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-01-28 16:03:58.907 +02:00 [Information] Executed action method "WebApi.Controllers.AuthController.Login (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 668.615ms.
+2019-01-28 16:03:58.919 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.TokenModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-01-28 16:03:58.939 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 145416.7669ms
+2019-01-28 16:03:58.943 +02:00 [Information] Request finished in 522373.5464ms 200 application/json; charset=utf-8
+2019-01-28 16:04:01.269 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-28 16:04:06.426 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-28 16:04:51.335 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-28 16:04:54.982 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-28 16:05:12.565 +02:00 [Information] Request finished in 17587.6214ms 404 
+2019-01-28 16:05:15.339 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-28 16:05:20.117 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-28 16:05:55.289 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-28 16:05:58.858 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-28 16:06:01.255 +02:00 [Information] Request finished in 2400.8515ms 404 
+2019-01-28 16:06:03.588 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-28 16:06:05.270 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-28 16:06:08.643 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-01-28 16:06:09.008 +02:00 [Information] Executed action method "WebApi.Controllers.AuthController.Login (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 356.7835ms.
+2019-01-28 16:06:09.020 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.TokenModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-01-28 16:06:09.041 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 3765.405ms
+2019-01-28 16:06:09.045 +02:00 [Information] Request finished in 5457.2848ms 200 application/json; charset=utf-8
+2019-01-28 16:06:13.710 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-28 16:06:16.872 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-28 16:45:43.501 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-28 16:45:47.024 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-28 16:45:54.007 +02:00 [Information] Request finished in 6985.3453ms 404 
+2019-01-28 16:45:58.953 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-28 16:46:05.930 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-28 16:46:22.663 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-01-28 16:46:23.044 +02:00 [Information] Executed action method "WebApi.Controllers.AuthController.Login (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 371.1957ms.
+2019-01-28 16:46:23.056 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.TokenModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-01-28 16:46:23.097 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 17160.4828ms
+2019-01-28 16:46:28.350 +02:00 [Information] Request finished in 29397.0903ms 200 application/json; charset=utf-8
+2019-01-28 16:52:25.969 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-28 16:52:28.897 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-28 16:52:29.128 +02:00 [Information] Request finished in 232.0434ms 404 
+2019-01-28 16:52:33.280 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-28 16:52:33.342 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-28 16:54:30.337 +02:00 [Information] Executing action method "WebApi.Controllers.AuthController.Login (WebApi)" with arguments (["D1.Model.LoginModel"]) - Validation state: Valid
+2019-01-28 16:54:30.678 +02:00 [Information] Executed action method "WebApi.Controllers.AuthController.Login (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 333.5278ms.
+2019-01-28 16:54:30.689 +02:00 [Information] Executing ObjectResult, writing value of type '"WebApi.Model.ApiResponse`1[[D1.Model.TokenModel, D1.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-01-28 16:54:30.706 +02:00 [Information] Executed action "WebApi.Controllers.AuthController.Login (WebApi)" in 117358.8532ms
+2019-01-28 16:54:36.541 +02:00 [Information] Request finished in 123260.8257ms 200 application/json; charset=utf-8
+2019-01-28 16:54:56.100 +02:00 [Information] Request starting HTTP/1.1 POST https://localhost:44343/auth/login application/json 77
+2019-01-28 16:55:04.622 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing action "WebApi.Controllers.AuthController.Login (WebApi)"
+2019-01-28 18:02:11.275 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-28 18:02:13.231 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-28 18:02:13.359 +02:00 [Information] Request finished in 129.22ms 404 
+2019-01-28 18:04:36.804 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-28 18:04:36.818 +02:00 [Information] Request finished in 14.6854ms 404 
+2019-01-28 21:31:10.374 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-28 21:31:13.022 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-28 21:31:13.304 +02:00 [Information] Request finished in 283.9451ms 404 
+2019-01-28 22:00:48.072 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-28 23:10:26.936 +02:00 [Information] User profile is available. Using '"C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-28 23:10:29.621 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44343/  
+2019-01-28 23:10:29.849 +02:00 [Information] Request finished in 230.088ms 404 
+2019-01-28 23:10:47.751 +02:00 [Information] Request starting HTTP/1.1 GET https://localhost:44343/users application/json 77
+2019-01-28 23:10:47.774 +02:00 [Information] Route matched with "{action = \"GetUsers\", controller = \"User\"}". Executing action "WebApi.Controllers.UserController.GetUsers (WebApi)"
+2019-01-28 23:10:47.787 +02:00 [Information] Authorization failed.
+2019-01-28 23:10:47.793 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2019-01-28 23:10:47.878 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+2019-01-28 23:10:47.966 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2019-01-28 23:10:47.974 +02:00 [Information] Executed action "WebApi.Controllers.UserController.GetUsers (WebApi)" in 192.1602ms
+2019-01-28 23:10:47.979 +02:00 [Information] Request finished in 227.4636ms 401 
